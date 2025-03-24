@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import React from 'react'
 
 import { NavBar } from './NavBar'
 import { ThemeSwitcher } from './ThemeSwitcher'
@@ -27,7 +28,7 @@ export const MobileMenu = () => {
 
   return (
     <div className="hidden flex-col sm:flex">
-      <button onClick={openMenu}>
+      <button onClick={openMenu} title="Open menu">
         <Menu />
       </button>
       {show && (
@@ -44,7 +45,7 @@ export const MobileMenu = () => {
                 : 'translate-x-full opacity-0'
             } fixed bottom-0 right-0 top-0 z-30 flex h-screen w-2/3 flex-col items-center justify-center gap-16 bg-secondary p-4 opacity-0 transition duration-300`}
           >
-            <button onClick={closeMenu}>
+            <button onClick={closeMenu} title="Close menu">
               <X />
             </button>
             <NavBar />
