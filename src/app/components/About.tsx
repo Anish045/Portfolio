@@ -18,7 +18,7 @@ export const About = () => {
         >
           <p>
             Hello, my name is{' '}
-            <span className="font-bold text-target">Sandeep Vashishtha</span>.
+            <span className="font-bold text-target">Anish Kumar</span>.
             I’m a
             <span className="font-bold text-target">
               Certified Ethical Hacker
