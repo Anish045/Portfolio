@@ -1,12 +1,12 @@
 'use client'
 
-import { useState } from 'react'
+import React, { useState } from 'react'
 
 import copy from 'copy-to-clipboard'
 import { Mail } from 'lucide-react'
 
 export const EmailBtn = () => {
-  const email = 'sandeepvashishtha@outlook.in'
+  const email = 'anishkumar10110@gmail.com'
   const [copied, setCopied] = useState(false)
 
   const handleCopyEmail = () => {

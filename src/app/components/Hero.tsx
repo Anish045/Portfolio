@@ -1,3 +1,5 @@
+import React from 'react'
+
 import { MotionDiv, MotionH1, MotionP } from '../lib/motion'
 import { EmailBtn } from './EmailBtn'
 
@@ -16,7 +18,7 @@ export const Hero = () => {
             }}
             className="text-center text-8xl font-bold md:text-7xl sm:text-5xl"
           >
-            Sandeep Vashishtha<span className="text-target"></span>
+            Anish Kumar<span className="text-target"></span>
           </MotionH1>
           <MotionP
             initial={{ opacity: 0, x: -40 }}
@@ -28,7 +30,7 @@ export const Hero = () => {
             }}
             className="text-center text-4xl sm:text-3xl"
           >
-            <span className="font-bold text-target">Full-Stack </span>
+            <span className="font-bold text-target">Software </span>
             {'Developer'}
           </MotionP>
           <MotionDiv

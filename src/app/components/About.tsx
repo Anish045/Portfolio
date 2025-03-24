@@ -20,10 +20,8 @@ export const About = () => {
           <p>
             Hello, my name is{' '}
             <span className="font-bold text-target">Anish Kumar</span>. I’m a
-            <span className="font-bold text-target">
-              Certified Ethical Hacker
-            </span>
-            , and an experienced{' '}
+            <span className="font-bold text-target">Software Developer</span>,
+            and an experienced{' '}
             <span className="font-bold text-target">Java Developer</span>. I
             specialize in both front-end and back-end technologies and have
             expertise in frameworks like React, Next.js, Node.js, and
