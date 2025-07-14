@@ -5,8 +5,8 @@ import { MotionDiv } from '../lib/motion'
 import { Github, Linkedin } from 'lucide-react'
 
 export const socialData = [
-  { link: 'https://github.com/sandeepvashishtha', icon: <Github /> },
-  { link: 'https://linkedin.com/in/sandeepvashishtha/', icon: <Linkedin /> }
+  { link: 'https://github.com/anish045', icon: <Github /> },
+  { link: 'https://linkedin.com/in/anish-kumar-55540724b', icon: <Linkedin /> }
 ]
 
 export const SocialLinks = () => {

@@ -2,9 +2,6 @@
 
 👨‍💻 My personal portfolio website built with Next.js and Tailwind CSS, showcasing my skills, projects, and experiences.
 
-![image](https://github.com/user-attachments/assets/ea99202b-d9fa-4f08-80a1-94dbd4be23b6)
-
-
 ## Introduction
 
 Welcome to my personal portfolio website! This project is built using Next.js and Tailwind CSS to showcase my skills, projects, and experiences. It serves as a central place to share my work and connect with others.
@@ -30,7 +27,7 @@ To get a local copy of the project up and running, follow these steps:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/SandeepVashishtha/Portfolio.git
+git clone https://github.com/anish045/Portfolio.git
 ```
 
 2. Navigate to the project directory:
