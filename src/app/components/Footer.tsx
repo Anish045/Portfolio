@@ -1,3 +1,5 @@
+import React from 'react'
+
 import { MotionDiv } from '../lib/motion'
 
 import { Github, Linkedin } from 'lucide-react'
@@ -6,11 +8,11 @@ const iconSize = { width: 28, height: 28 }
 
 const socialData = [
   {
-    link: 'https://github.com/sandeepvashishtha',
+    link: 'https://github.com/Anish045',
     icon: <Github width={iconSize.width} height={iconSize.height} />
   },
   {
-    link: 'https://www.linkedin.com/in/sandeepvashishtha/',
+    link: 'https://www.linkedin.com/in/anish-kumar-55540724b',
     icon: <Linkedin width={iconSize.width} height={iconSize.height} />
   }
 ]
@@ -29,7 +31,7 @@ export const Footer = () => {
         }}
         className="mx-auto flex w-full max-w-5xl items-center justify-between border-t py-8 text-lg sm:flex-col sm:gap-y-6"
       >
-        <p>© 2024 Sandeep Vashishtha</p>
+        <p>© 2025 Anish Kumar</p>
         <div className="flex items-center gap-4">
           {socialData.map((social, index) => (
             <a
